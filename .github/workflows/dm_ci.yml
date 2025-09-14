@@ -1,0 +1,13 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify seeded files exist
+        run: |
+          test -f docs/ability_glossary.json || (echo 'Missing docs/ability_glossary.json' && exit 1)
+          test -f exports/results/concise_profile_template.md || (echo 'Missing concise profile template' && exit 1)
+          test -f exports/results/narrative_template.md || (echo 'Missing narrative template' && exit 1)
+          echo 'Artifacts OK'
