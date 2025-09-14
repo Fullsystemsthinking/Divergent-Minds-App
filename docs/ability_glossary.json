@@ -1,0 +1,16 @@
+[
+  {
+    "id": "logical_pioneer.problem_breaker",
+    "guild_id": "logical_pioneer",
+    "name": "Problem Breaker",
+    "plain_explanation": "Breaking a big problem into smaller, solvable steps so it feels clear and doable. [src:dm_experience_doc#Logical Pioneer Guild]",
+    "authoritative_pointer": "dm_experience_doc#Logical Pioneer Guild"
+  },
+  {
+    "id": "idea_mavericks.creative_innovator",
+    "guild_id": "idea_mavericks",
+    "name": "Creative Innovator",
+    "plain_explanation": "Coming up with original solutions beyond the usual patterns. [src:dm_experience_doc#The Idea Mavericks Guild]",
+    "authoritative_pointer": "dm_experience_doc#The Idea Mavericks Guild"
+  }
+]
